@@ -1,0 +1,53 @@
+.flex-container{
+	display: flex;
+
+	flex-direction: row;
+	/* -- 
+	{Direção}
+	row (padrão) 
+	column  
+	row-reverse  
+	column-reverse  
+	-- */
+	
+	justify-content: flex-start;
+	/* -- 
+	{Alinhamento Horizontal}
+	flex-start (padrão) 
+	flex-end  
+	center  
+	space-around 
+	space-between 
+	-- */ 
+
+	align-items: stretch;
+	/* -- 
+	{Alinhamento Vertical}
+	stretch (padrão)  
+	flex-start  
+	flex-end  
+	center  
+	baseline (baseado no conteúdo dos items) 
+	-- */
+
+	flex-wrap: wrap;
+	/* -- 
+	{Quebra de Linha}
+	nowrap (padrão)
+	wrap  
+	reverse 
+	-- */
+
+	flex-flow: row wrap;
+	/* -- Definir direction e wrap -- */
+
+	align-content: flex-start ;
+	/* -- 
+	{Alinhamento Vertical com varias linhas}
+	flex-start (padrão) 
+	flex-end  
+	center  
+	space-around 
+	space-between 
+	-- */
+}

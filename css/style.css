@@ -1,0 +1,112 @@
+/* -- CONFIGURAÇÕES GLOBAIS -- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover,a:focus,a:visited{
+    text-decoration: none;
+    outline: none;
+}
+/* -- CONFIGURAÇÕES GLOBAIS -- */
+
+/* -- NAV BAR -- */
+.nav-bar{
+    background-color: #70e65c;
+    width: 100%;
+    height: 15vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav-bar img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+/* -- NAV BAR -- */
+
+/* -- CONTAINER -- */
+.container-master{
+    background-color: #f8f8f8;
+    width: 100%;
+    height: 80vh;
+    padding: 2%;
+    display: flex;
+
+    /*ALINHAMENTO DIREÇÃO*/
+    flex-direction: column;
+
+    /*ALINHAMENTO HORIZONTAL*/
+    justify-content: center;
+
+    /*ALINHAMENTO VERTICAL*/
+    align-items: center;
+
+}
+/* -- CONTAINER -- */
+
+/* -- ESTILO DOS LINKS -- */
+.btn a{
+    background-color: #4be062;
+    color: #ffffff;
+
+    width: 30%;
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid #20c020;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 1px 1px 15px -4px rgba(0,0,0,0.46);
+    transition: 0.3s;
+}
+
+.btn a:hover{
+    background-color:#ffffff;
+    color: #20c020;
+
+    box-shadow: 1px 1px 15px -4px rgba(0,0,0,0.66);
+}
+
+@media screen and (max-width: 768px){
+
+.btn a{
+    width: 80%;
+}
+
+}
+
+/* -- ESTILO DOS LINKS -- */
+
+.flex-items{
+    background-color: #992ADE;
+    width: 60px;
+    height: 60px;
+    margin: 1%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #70e65c;
+    width: 100%;
+    height: 5vh;
+}
